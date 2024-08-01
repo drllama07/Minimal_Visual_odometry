@@ -153,7 +153,7 @@ while video.isOpened() and timer < 300 :
     
     Rt[:3, :3] = R_good
  
-    Rt[:3, 3] = t[:,0]
+    Rt[:3, 3] = t[:,0] 
     
     avg_rt = ( (0.6 * Rt) + (0.4 * old_rt)) # for reducing the noise by using a momentum like approach
     f2_pose = np.dot(f1_pose,avg_rt)
