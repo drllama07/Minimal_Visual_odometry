@@ -76,3 +76,5 @@ A super minimal visual odometry implementation in Python with [OpenCV](https://o
 
 
 For additional learning resources and tutorials, please stay tuned for updates.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
